@@ -24,6 +24,7 @@ import java.util.Optional;
 @Slf4j
 @Controller
 @RequestMapping(value = "/api/v1/auth/")
+@CrossOrigin(origins = "http://localhost:4200")
 public class AuthenticationRestControllerV1 {
 
     private final AuthenticationManager authenticationManager;
